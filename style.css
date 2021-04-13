@@ -1,5 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500&family=Nunito+Sans:wght@200;300;600&display=swap');
 * {
     box-sizing: border-box;
     margin:0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Halant', serif;
+    color: white;
+}
+
+header {
+    background-image: url(/Images/jamaicaflag2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-text-box {
+    
+}
+
+a {
+    font-family: 'Nunito Sans', sans-serif
 }
 
