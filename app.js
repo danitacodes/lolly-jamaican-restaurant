@@ -1,12 +1,12 @@
-const hamburgerMenu = document.querySelector('#navigation .nav-icon');
-const navContent = document.querySelector('#nav-content');
-const closeNavButton = document.querySelector('#nav-content .close-btn');
+//Selectors
 
-hamburgerMenu.addEventListener('click', ()=> {
-    navContent.classList.add('show');
-})
+const selectElement = function (element) {
+    return document.querySelector(element);
+};
 
-closeNavButton.addEventListener('click', ()=> {
-    navContent.classList.remove('show');
-})
+const menuToggler = selectElement('.menu-toggle');
+const body = selectElement('body');
 
+menuToggler.addEventListener('click', ()=> {
+    body.classList.toggle('open');
+});
